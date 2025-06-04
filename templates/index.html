@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPZ Realtime Advisor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="voice-orb-container">
+            <div id="voice-orb">
+                <!-- Icon or text for record can go here later -->
+            </div>
+        </div>
+        <div id="controls-and-chat-container">
+            <div id="conversation-area">
+                <!-- Conversation will be displayed here -->
+            </div>
+            <div id="controls">
+                <button id="record-button">Start Recording</button> <!-- Will be visually replaced by orb -->
+                <button id="stop-button" disabled>Stop</button>
+            </div>
+            <div id="text-input-container">
+                <input type="text" id="text-input" placeholder="Or type your message here...">
+                <button id="send-text-button">Send</button>
+            </div>
+        </div>
+        <audio id="audio-player" controls hidden></audio> 
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

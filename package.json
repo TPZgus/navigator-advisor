@@ -1,0 +1,27 @@
+{
+  "name": "tpz-realtime-advisor",
+  "version": "1.0.0",
+  "description": "Realtime advisory app for TPZ students",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "ai",
+    "realtime",
+    "voice",
+    "gemini",
+    "tpz"
+  ],
+  "author": "TPZ",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ws": "^8.17.0",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}

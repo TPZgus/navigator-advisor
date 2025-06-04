@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+*.env.local
+*.env.*.local
+
+# Temporary files
+temp_*.webm
+temp_*.pcm
+temp_client_audio_*.webm
+temp_client_audio_*.pcm
+
+
+# Output files
+outputs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
