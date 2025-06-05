@@ -201,3 +201,24 @@ button:disabled {
     color: #888;
     cursor: not-allowed;
 }
+
+#mute-button {
+    padding: 12px 15px; /* Adjusted padding to be similar to send button */
+    margin-right: 5px; /* Space between mute and text input */
+    background-color: #6c757d; /* Neutral gray */
+    color: white;
+    border-radius: 6px 0 0 6px; /* Match text input left side */
+    border: 1px solid #6c757d;
+}
+
+#mute-button:hover:not(:disabled) {
+    background-color: #5a6268;
+}
+
+#mute-button.muted {
+    background-color: #F58220; /* TPZ Orange when muted */
+    border-color: #F58220;
+}
+#mute-button.muted:hover:not(:disabled) {
+    background-color: #d8731c;
+}
