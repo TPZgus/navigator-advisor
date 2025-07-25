@@ -56,7 +56,7 @@ This standalone application serves as an initial demonstration and proof-of-conc
 
 **Considerations for Integration:**
 
-The "Navigator" ecosystem appears to consist of several components:
+Looks like our TPZ "Navigator" ecosystem  consist of several components:
 
 *   **`navigator-rails`**: The Rails backend.
 *   **`navigator-web`**: Admin views, and potentially future student views (React frontend, likely).
@@ -93,3 +93,4 @@ The choice of integration strategy will depend on the overall architecture of th
 5.  Fix text display so students can see email addresses clearly when referred to a human.
 6.  Expanded (just for MVP) system prompt with basic info, but also lots of moments of "refer to [tpz member email] for specific things, like stipends, SST, and other flags that would bring in human to loop."
 7.  Others we can add as we go.
+# Automatic mirroring test - Fri Jul 25 09:29:52 EDT 2025
